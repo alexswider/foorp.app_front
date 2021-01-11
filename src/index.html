@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="image/x-icon" href="./images/App_Icon.png" sizes="64x64" />
+  <title>Foorp</title>
+  <link rel="apple-touch-icon" sizes="57x57" href="./fav/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="./fav/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="./fav/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="./fav/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="./fav/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="./fav/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="./fav/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="./fav/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="./fav/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="./fav/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="./fav/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="./fav/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="./fav/favicon-16x16.png">
+<link rel="manifest" href="./fav/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="./fav/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+</head>
+
+<body style="display: none;">
+  <div class="hero w-screen bg-hero-bg bg-top bg-no-repeat">
+    <div class="mainC container mx-auto bg-gray">
+      <!-- Navbar -->
+      <div class="navbar grid grid-cols-2  p-4  ">
+        <div class="navIcon col-span-1 flex">
+          <img class=" h-16 object-contain p-2" src="./images/App_Icon.png">
+          <p class="invisible font-sans text-white text-2xl p-3 align-middle font-bold md:visible">
+            Foorp
+          </p>
+        </div>
+
+        <!-- <span class="font-semibold text-xl tracking-tight subpixel-antialiased">Webpack Boilerplate</span> -->
+        <div class="navLinks  text-white p-4 text-right gap-5">
+          <span class="inline-block align-middle"><a href="#about">About</a></span>
+          <span class="inline-block align-middle pl-3 md:pl-6"><a href="#contact">Contact Us</a></span>
+        </div>
+      </div>
+      <!-- Hero content-->
+      <div class="flex gap-4 p-0 md:p-8 flex-col-reverse md:flex-row">
+        <!-- iPhone photo -->
+        <div class="videoHolder max-h-screenx md:w-1/2 flex justify-start pl-10 pr-10">
+          <img class="h-auto object-contain object-top" src="./images/iPhone.png" alt="">
+        </div>
+        <!-- right side-->
+        <div class="grid md:w-1/2  grid-rows-6 p-6 md:p-1">
+          <div class="notification invisible md:vissible "></div>
+          <div class="flex grid-cols-4">
+            <img class="mainIcon col-span-2 object-contain " src="./images/App_Icon.png" alt="">
+            <div class="col-span-2 ">
+              <p class="name text-5xl text-white font-bold mt-2 pl-6">Foorp</p>
+              <p class="subName text-sm md:text-xl font-light text-white align-top pl-6"> Proof in your pocket</p>
+            </div>
+          </div>
+        
+          <span class="mainDescr flex items-center text-white">Hands free. Works in a flash. Just say the word and you’re streaming. Connect to anything: Facebook, TikTok, or even your own server via voice command.
+
+          </span>
+
+          <div class="btns flex  items-center md:items-start ">
+            <div class="downBtn1">
+              <a href=""><img class="object-contain  object-center " src="./images/GPlay.png"></a>
+            </div>
+            <div class="downBtn2">
+              <a href=""><img class="object-contain  object-center " src="./images/appStore.png" alt=""></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <!-- feature 1 -->
+      <a name="about"></a>
+      <div name="about" class="features grid grid-flow-col grid-cols-12">
+        <div class="pl-4 pr-4 md:p-0 col-span-8 md:col-span-4 md:col-start-2 flex content-center flex-wrap">
+
+          <p class="font-bold text-2xl md:text-4xl pb-6 ">
+            Voice Activated
+          </p>
+          <p class="text-base md:text-xl font-thin ">
+            Start streaming as fast as you can say “Foorp”. (Or any phrase you want. It’s completely customizable.) 
+            <ul>
+              <li>Launch a live stream hands free
+              </li>
+              <li>Customize your voice commands
+              </li>
+              <li>Upload locally stored content on demand</li>
+            </ul>
+          </p>
+
+        </div>
+        <div class="col-span-4 md:col-span-6 flex justify-center flex-no-wrap">
+          <img class=" object-none object-left md:object-center" src="./images/iPhone_feature.png">
+
+        </div>
+
+      </div>
+      <!-- feature 2 -->
+      <div class="features grid grid-flow-col grid-cols-12 pb-16 ">
+
+        <div class="md:col-start-1 col-span-4 md:col-span-6 flex justify-center flex-no-wrap">
+          <img class=" object-none object-right md:object-center" src="./images/iPhone_feature.png">
+        </div>
+        <div class="md:col-start-7 pl-4 pr-4 md:p-0 col-span-8 md:col-span-4 flex content-center flex-wrap">
+          <p class="font-bold text-2xl md:text-4xl pb-6">
+            Notify On The Fly
+
+          </p>
+          <p class="text-base md:text-xl font-thin">
+            Share your stream with the right people, using simple voice commands that you control.
+
+          </p>
+          <ul>
+            <li>Create custom contact groups
+            </li>
+            <li>Notify followers that you’re streaming
+            </li>
+            <li>
+              Alert emergency personnel
+
+            </li>
+
+          </ul>
+
+        </div>
+
+
+      </div>
+    </div>
+
+  </div>
+  <div class="w-screen bg-white">
+    <div class="container mx-auto">
+      <!--reviews-->
+      <div class="grid md:grid-flow-col  grid-cols-2">
+        <div class="flex justify-center flex-wrap mt-32 gap-2 col-span-2 md:col-span-1 ">
+          <img class="align-middle" src="./images/Stars.png">
+          <p class="p-10 text-center font-thin ">
+            Wherever some that and kiwi that well dolphin alas this wantonly jeepers jeepers the mindfully one aside
+            canny one preparatory up less therefore hello oh amid goodness.
+          </p>
+          <p class="text-center font-bold">
+            Federico Viticci, MacStories
+          </p>
+        </div>
+
+        <div class="flex justify-center flex-wrap mt-32 gap-2 col-span-2 md:col-span-1">
+          <img class="align-middle" src="./images/Stars.png">
+          <p class="p-10 text-center font-thin ">
+            Wherever some that and kiwi that well dolphin alas this wantonly jeepers jeepers the mindfully one aside
+            canny one preparatory up less therefore hello oh amid goodness.
+          </p>
+          <p class="text-center font-bold">
+            Federico Viticci, MacStories
+          </p>
+        </div>
+      </div>
+   
+
+      <!--Contact form -->
+      <a name="contact"></a>
+      <div  class="flex content-center items-center justify-center ">
+        <div class="min-h-screen flex items-center justify-center bg-gray-50 ">
+          <div class="rounded-3xl shadow-sm w-full lg:w-7/12 md:px-4 bg-gradient-to-t from-purple to-blue m-2 p-8 md:p-10">
+            <div>
+              <h1 class=" text-center text-4xl font-extrabold text-white pb-5">
+                Contact Us
+              </h1>
+              <p class="text-center text-sm text-white md:pl-20 md:pr-20">
+                Wherever some that and kiwi that well dolphin alas this wantonly jeepers jeepers the mindfully one aside
+                canny one preparatory up less therefore hello oh amid.
+              </p>
+            </div>
+            <div class="md:pl-20 md:pr-20 md:pb-10 justify-center items-center w-full">
+
+              <form action="https://formsubmit.io/send/0c1b8255-f0fb-49b4-851e-594488c31eba"
+              method="POST">>
+
+                <div class="flex w-full pt-6 ">
+                  <input name="_redirect" type="hidden" id="name" value="https://foorp.app/#send">
+                  <!-- <textarea name="comment" id="comment" rows="3"></textarea> -->
+                  <input name="_formsubmit_id" type="text" style="display:none">
+                  <input id="comment" value="email from FROOP.APP page" style="display:none">
+                  <input 
+                    class=" h-12 bg-white text-grey-darker font-normal text-grey-darkest  w-full pl-8 outline-none text-lg text-gray-600 rounded-r-none rounded-3xl "
+                    name="email" type="email" id="email" placeholder="email address">
+                  <span
+                    class=" h-12 flex items-center bg-white rounded-l-none rounded-full pt-1 pr-1 pb-1 border-0 font-bold text-grey-100">
+                    <button class="h-10 bg-black hover:bg-black text-white font-old pl-6 pr-6 rounded-3xl" value="Submit" type="submit">
+                      Submit
+                    </button>
+                  </span>
+                </div>
+                <div class="flex w-full pt-8 ">
+               
+                  <input
+                    class="h-12 bg-gray-100 text-grey-darker font-normal text-grey-darkest  w-full pl-8 outline-none text-lg text-gray-600  rounded-3xl "
+                    name="name" type="text" id="name"  placeholder="Full Name">
+
+                </div>
+                <!-- <div class="flex w-full pt-8 ">
+                  <input
+                    class="h-12 bg-gray-100 text-grey-darker font-normal text-grey-darkest  w-full pl-8 outline-none text-lg text-gray-600  rounded-3xl "
+                    type="text" placeholder="Full Name">
+
+                </div> -->
+              </form>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="flex content-center justify-center">
+      <span class="w-full text-center font-thin text-sm text-gray-600 p-4">
+        Copyright 2021 &#169; FPO.studio  &#9675; 
+        <a class="" href="privacy.html"> Privacy Polices</a> 
+        &#9675;
+      <a href="terms.html"> Terms & Conditions</a>
+      </span>
+     
+    </footer>
+</body>
+
+</html>
