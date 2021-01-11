@@ -1,4 +1,4 @@
-# webpack-tailwind-babel-boilerplate
+# Foorp.app
 webpack-tailwind-babel-boilerplate is a fully configured boilerplate repository with [webpack](https://webpack.js.org/ "webpack"), [Babel](https://babeljs.io/ "Babel") and [Tailwind CSS](https://tailwindcss.com/ "Tailwind CSS") as well as all of the required loaders.
 
 webpack-tailwind-babel-boilerplate consists of 2 webpack configs - production and development. This repo uses webpack caching and Tailwind purge to delete unused CSS and keep the distribution files small.
